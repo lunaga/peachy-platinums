@@ -1,0 +1,282 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.oswald-<uniquifier> {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+/* Boddy */
+
+body {
+    background-image: url(../img/bgpag.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 90vh;
+}
+
+/*navegador */
+
+.navbar{
+    background-color: black;
+    position: ;
+}
+.container-fluid a{
+    color: white
+    ;
+}
+
+
+/* Section Main */
+
+
+.container h2 {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.container p {
+    font-family: "Oswald", sans-serif;
+    color: white;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 10vh;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.column {
+    flex: 1;
+    /* Cada columna tomará el mismo ancho */
+    padding: 10px;
+}
+
+.media {
+    max-width: 100%;
+    /* Para que la imagen o video se ajuste al contenedor */
+    height: auto;
+}
+
+.full-width {
+    flex-direction: column;
+    /* Cambiamos la dirección para que ocupe toda la fila */
+    align-items: center;
+    /* Centramos el contenido */
+    text-align: center;
+    /* Centramos el texto */
+}
+
+.button-container {
+    margin-top: 15px;
+}
+
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    /* Color de fondo del botón */
+    color: white;
+    /* Color del texto del botón */
+    text-decoration: none;
+    /* Sin subrayado */
+    border-radius: 5px;
+    /* Bordes redondeados */
+}
+
+.button:hover {
+    background-color: #0056b3;
+    /* Color de fondo al pasar el mouse */
+}
+
+/* Carrusel section */
+
+/* Ajustamos el tamaño del carrusel */
+.carousel {
+    height: 40vh;
+    /* Altura máxima del carrusel */
+}
+
+.carousel-inner {
+    height: 100%;
+    /* Altura completa para el contenedor de las imágenes */
+}
+
+.carousel-item {
+    height: 100%;
+    /* Altura completa para cada ítem */
+}
+
+.carousel-item img {
+    width: 100%;
+    /* Ancho completo */
+    height: 100%;
+    /* Alto completo */
+    object-fit: contain;
+    /* Ajustar imagen para cubrir el área */
+    border-radius: 20px;
+}
+
+.title-section {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(79, 9, 157, 0.6685049019607843) 100%, rgba(0, 212, 255, 1) 100%);
+    color: white;
+    /* Color del texto */
+    font-family: "Oswald", sans-serif;
+    text-align: center;
+    /* Centramos el texto */
+    padding: 20px;
+    /* Espaciado interno */
+    width: 100%;
+    /* Ancho completo */
+    position: relative;
+    /* Para evitar problemas de alineación */
+}
+
+.comentarios {
+    display: flex;
+    /* Usamos Flexbox para alinear las columnas */
+    justify-content: center;
+    /* Centra el contenido horizontalmente */
+    align-items: center;
+    /* Centra el contenido verticalmente */
+    margin: 40px 0;
+    /* Margen superior e inferior */
+    padding: 20px;
+    /* Espaciado interno */
+}
+
+.columna {
+    flex: 1;
+    /* Cada columna ocupa el mismo espacio */
+    padding: 20px;
+    /* Espaciado interno de las columnas */
+}
+
+.columna img {
+    max-width: 100%;
+    /* La imagen ocupa el ancho completo de la columna */
+    margin-left: 25vh;
+    /* Bordes redondeados para la imagen */
+}
+
+.columna p {
+    text-align: justify;
+    /* Justificar el texto del párrafo */
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 25px;
+    padding: 10vh;
+}
+
+/* about /*
+
+        /* Estilo para la sección About */
+.about-section {
+    margin: 25vh;
+    text-align: center;
+    /* Centrar texto */
+}
+
+.about-section h2 {
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 30px;
+    margin: 10vh;
+    /* Margen inferior para el título */
+}
+
+.about-section img {
+    width: 100%;
+    /* Ancho completo */
+    height: auto;
+    /* Alto automático para mantener la proporción */
+    max-width: 400px;
+    /* Ancho máximo para la imagen */
+}
+
+.grid {
+    display: grid;
+    /* Usar cuadrícula */
+    grid-template-columns: 1fr 1fr;
+    /* Dos columnas */
+    gap: 20px;
+    /* Espacio entre columnas */
+}
+
+.us h3{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.us p{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+.us-2 h3{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 30px;
+}
+.us-2 p{
+    font-family: "Oswald", sans-serif;
+    color: white;
+    font-size: 20px;
+}
+/* Section Footer */
+
+footer {
+    text-align: center;
+    background-color: black;
+    background-position: center;
+}
+
+footer div a img {
+    display: inline;
+    width: 50px;
+    margin: 15px;
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .column, .columna {
+        flex: 100%; /* Ocupa todo el ancho en dispositivos pequeños */
+    }
+
+    .button {
+        width: 100%; /* Botón ocupa todo el ancho */
+    }
+
+    .us h3, .us p, .us-2 h3, .us-2 p {
+        font-size: 18px; /* Tamaño de fuente más pequeño para dispositivos pequeños */
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1540px) {
+    .column {
+        flex: 48%; /* Dos columnas en pantallas medianas */
+    }
+}
+
+@media (min-width: 1550px) {
+    .column {
+        flex: 30%; /* Tres columnas en pantallas grandes */
+    }
+}
